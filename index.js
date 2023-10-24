@@ -188,3 +188,15 @@ function wordWiseLive() {
     window.location.href = "https://venerable-dodol-cb93c5.netlify.app/";
 
 }
+
+
+
+
+const resumedown2 = () => {
+  
+    window.open(
+      "https://drive.google.com/file/d/1UBgt4cfEWrtO6DkeT8boJlXNJqLDL3kG/view?usp=sharing",
+      "_blank"
+      
+    );
+  };
