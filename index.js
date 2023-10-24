@@ -116,13 +116,13 @@ closeBtn.addEventListener("click", function () {
 })
 
 
-let btnform = document.querySelector("#form-submit");
+// let btnform = document.querySelector("#form-submit");
 
-btnform.addEventListener('click', function () {
+// btnform.addEventListener('click', function () {
 
-    window.location.href = "https://amolkpatil22.github.io/"
+//     window.location.href = "https://amolkpatil22.github.io/"
 
-})
+// })
 
 
 let navbarColor = document.querySelectorAll(".nav-link");
