@@ -120,7 +120,7 @@ let btnform = document.querySelector("#form-submit");
 
 btnform.addEventListener('click', function () {
 
-    // window.location.href = "https://amolkpatil22.github.io/"
+    window.location.href = "https://amolkpatil22.github.io/"
 
 })
 
@@ -148,7 +148,7 @@ function shopCartGithub() {
 
 function shopCartVideo() {
 
-    // window.location.href = "";
+    window.location.href = "https://github.com/amolkpatil22/stoic-sack-3017";
 
 }
 
