@@ -148,7 +148,7 @@ function shopCartGithub() {
 
 function shopCartVideo() {
 
-    window.location.href = "https://github.com/amolkpatil22/stoic-sack-3017";
+    window.location.href = "https://shopcartrct211.netlify.app/";
 
 }
 
@@ -192,11 +192,3 @@ function wordWiseLive() {
 
 
 
-const resumedown2 = () => {
-  
-    window.open(
-      "https://drive.google.com/file/d/1UBgt4cfEWrtO6DkeT8boJlXNJqLDL3kG/view?usp=sharing",
-      "_blank"
-      
-    );
-  };
