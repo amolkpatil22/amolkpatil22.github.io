@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="github.css">
+    <title>Amol Patil's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="Resources/Logo-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <section id="nav-menu">
+
+            <div id="nav-bar">
+
+                <a href="#home" class="nav-link home">
+                    <i class="fa-solid fa-house icon"></i>
+                    <p class=" nav-name">HOME </p>
+                </a>
+                <a href="#about" class="nav-link about">
+                    <i class="fa-solid fa-circle-info icon"></i>
+                    <p class=" nav-name">ABOUT</p>
+                </a>
+                <a href="#skills" class="nav-link skills">
+                    <i class="fa-solid fa-diagram-project icon"></i>
+                    <p class=" nav-name">SKILLS</p>
+                </a>
+                <a href="#projects" class="nav-link projects">
+                    <i class="fa-solid fa-file icon"></i>
+                    <p class=" nav-name">PROJECTS</p>
+                </a>
+                <a href="#contact" class="nav-link contact">
+                    <i class="fa-solid fa-phone icon"></i>
+                    <p class=" nav-name">CONTACTS</p>
+                </a>
+                <a id="resume-button-1" onclick="resumeDownload()" target="_blank" href="/Amol_Patil_Resume.pdf"
+                    class="nav-link resume" download>
+                    <i class="fa-solid fa-file-arrow-down icon"></i>
+                    <p id="resume-link-1" class="nav-name">RESUME</p>
+                </a>
+                <div id="side-window">
+                    <a class="closebtn"> &times;</a>
+                    <a href=" #home">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#skills">SKILLS</a>
+                    <a href="#projects">PROJECTS</a>
+                    <a href="#contact">CONTACTS</a>
+                    <a id="resume-link-1" onclick="resumeDownload()" target="_blank" href="/Amol_Patil_Resume.pdf"
+                        download="Amol_Patil_Resume.pdf">RESUME</a>
+                </div>
+                <button class="openbtn">&#9776; </button>
+            </div>
+
+        </section>
+        <!-- =" Amol_Patil_Resume.pdf" -->
+        <section id="home">
+            <diV>
+                <div class="details-div">
+                    <div>
+                        <div>
+                            <h2>Hi, I'm</h3>
+                                <h1>Amol Patil</h1>
+                                <h3>FUll Stack Web Developer...</h3>
+                                <div target="_blank" class="btn-pack">
+                                    <div id="resume-button-2" onclick="resumeDownload()">
+                                        <a id="resume-link-2" class="resume-btn" href="/Amol_Patil_Resume.pdf"
+                                            download><span>Resume</span>
+                                        </a>
+                                    </div>
+
+                                    <div>
+                                        <i id="contact-github" class="fa-brands fa-github"></i>
+                                        <i id="contact-linkedin" class="fa-brands fa-linkedin"></i>
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="image-icon">
+                    <div>
+
+                        <div class="background"></div>
+                        <!-- <img src="Resources/laptop-boy.png" /> -->
+
+                    </div>
+
+                </div>
+
+            </diV>
+        </section>
+
+        <section id="about" class="about section">
+            <img src="Resources/wave6.png" />
+            <div class="main-about">
+                <div class="my-details">
+                    <div>
+                        <div> <img src="Resources/profile-photo.jpg" class="home-img" /></div>
+
+                    </div>
+                    <div>
+                        <h1 id="user-detail-name">About Me</h1>
+                        <!-- <hr style="width:200px; margin-bottom:10px"> -->
+
+                        <p id="user-detail-intro">
+                            I'm a passionate Full-stack Web Developer with a robust skill set in HTML, CSS, JavaScript,
+                            REST API, Node.js, React, MongoDB, Express.js, and GitHub. My expertise lies in seamlessly
+                            blending functionality and aesthetics to deliver visually appealing and flawless web
+                            applications.
+                            Dedicated to perpetual learning and staying updated with emerging technologies, I'm
+                            committed to making a lasting impact in the world of full-stack web development. Let's
+                            connect and explore opportunities to create innovative web solutions together!
+                        </p>
+                        <!-- <div class="past-info">
+                        <div>
+                            <div>
+                                <p> 1200+ </p>
+                            </div>
+                            <hr>
+                            <div>Coding Experience</div>
+                        </div>
+                        <div>
+                            <div>
+                                <p> 1200+ </p>
+                            </div>
+                            <hr>
+                            <div>Coding Experience</div>
+                        </div>
+                        <div>
+                            <div>
+                                <p> 1200+ </p>
+                            </div>
+                            <hr>
+                            <div>Coding Experience</div>
+                        </div>
+                    </div> -->
+                        <button id="contact-btn">Contact Me</button>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <img src="Resources/wave8.png" />
+        </section>
+
+        <section id="skills">
+            <h1>SKILLS</h1>
+            <!-- <hr style="width:200px; margin:0px auto 10px"> -->
+            <div class="skills-main">
+                <div>
+                    <div class="main-tech-stack skills-card">
+                        <h1>TECH STACKS</h1>
+                        <div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/html_logo.png" />
+                                    <p class="skills-card-name">HTML</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/css.png" />
+                                    <p class="skills-card-name">CSS</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/javascript.png" />
+                                    <p class="skills-card-name">JavaScript</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/react.png" />
+                                    <p class="skills-card-name">React</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/redux.svg" />
+                                    <p class="skills-card-name">Redux</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/chakra-ui.png" />
+                                    <p class="skills-card-name">Chakra UI</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/typescript.png" />
+                                    <p class="skills-card-name">TypeScript</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/node.png" />
+                                    <p class="skills-card-name">Node.js</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/express.png" />
+                                    <p class="skills-card-name">Express.js</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/mongodb.svg" />
+                                    <p class="skills-card-name">MongoDB</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/Mongoose.png" />
+                                    <p class="skills-card-name">Mongoose</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/github.svg" />
+                                    <p class="skills-card-name">Github</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="skills-card-img" src="Resources/Netlify.png" />
+                                    <p class="skills-card-name">Netlify</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+        <!-- <hr style="margin:60px"> -->
+        <section id="projects">
+            <p>My Recent Work</p>
+            <h1>PROJECTS</h1>
+            <div class="all-projects">
+                <div>
+                    <div class="single-project project-card">
+                        <h1 class="project-title">Shopcart</h1>
+                        <div class="project-img "><img src="/Resources/Shopcart.png" />
+                        </div>
+                        <p class="project-description">The ShopCart E-Commerce Store project is dedicated to providing a
+                            dynamic and streamlined
+                            online shopping experience in the realm of fashion and other households retail.</p>
+                        <!-- <ul style="list-style-type:disc">Features:
+                    <li>Valid Sign-up and Login</li>
+                    <li>Users can book a Trip</li>
+                    <li>Responsive</li>
+                </ul> -->
+                        <h5 class="project-tech-stack"><span style="color:#f0422f;">Tech Stack :</span> React
+                            | Redux | Chakra UI | HTML |
+                            CSS | JavaScript</h5>
+                        <p>A Collaborative project built by a team of 5 members
+                            in 4 Days.</p>
+                        <div>
+                            <button class="project-github-link" onclick="shopCartGithub()">GitHub</button>
+                            <button class="project-deployed-link" onclick="shopCartVideo()">Website</button>
+                        </div>
+                    </div>
+
+
+                    <div class="single-project project-card">
+                        <h1 class="project-title">Intelligent Care Access Center</h1>
+                        <div class="project-img"><img src="/Resources/ICAC.png" />
+                        </div>
+                        <p class="project-description">A user-focused Orthopedic Clinic website, skillfully crafted with
+                            React and Chakra UI, bridging the gap between patients and quality healthcare while
+                            showcasing the developer's expertise.</p>
+                        <!-- <ul style="list-style-type:disc">
+                    <li>Features:</li>
+                    <li>Valid Sign-up and Login</li>
+                    <li>Users can book a Trip</li>
+                    <li>Responsive</li>
+                </ul> -->
+
+                        <h5 class="project-tech-stack"><span style="color:#f0422f;">Tech Stack :</span> JavaScript
+                            | React | Chakra UI | HTML | CSS</h5>
+                        <p>Individual Project built in 4 Days.</p>
+                        <div><button class="project-github-link" onclick="icacGithub()">GitHub</button><button
+                                class="project-deployed-link" onclick="icacVideo()">Website</button></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="single-project project-card">
+                        <h1 class="project-title">Edukin</h1>
+                        <div class="project-img "><img src="/Resources/Edukin.png" />
+                        </div>
+                        <p class="project-description">Edukin Language Learning Project is an ambitious and innovative
+                            endeavor aimed at revolutionizing the way children learn new languages.</p>
+                        <!-- <ul style="list-style-type:disc">
+                    <li>Features:</li>
+                    <li>Valid Sign-up and Login</li>
+                    <li>Users can book a Trip</li>
+                    <li>Responsive</li>
+                </ul> -->
+
+                        <h5 class="project-tech-stack"><span style="color:#f0422f;">Tech Stack :</span> HTML
+                            | CSS | JavaScript</h5>
+                        <p>Collaborative project built by a team of 4 members in 4 Days.</p>
+                        <div><button class="project-github-link" onclick="edukinGithub()">GitHub</button><button
+                                class="project-deployed-link" onclick="edukinLive()">Website</button>
+                        </div>
+                    </div>
+                    <div class="single-project project-card">
+                        <h1 class="project-title">WordWise</h1>
+                        <div class="project-img "><img src="Resources/wordwise.png" /></div>
+                        <p class="project-description">Wordwise is inclusive language learning platform, catering
+                            to both children and adults. </p>
+                        <!-- <ul style="list-style-type:disc">
+                    <li>Features:</li>
+                    <li>Valid Sign-up and Login</li>
+                    <li>Users can book a Trip</li>
+                    <li>Responsive</li>
+                </ul> -->
+
+                        <h5 class="project-tech-stack"><span style="color:#f0422f;">Tech Stack :</span> HTML
+                            | CSS | JavaScript</h5>
+                        <p>Individual Project built in 4 Days.</p>
+                        <div><button class="project-github-link" onclick="wordWiseGithub()">GitHub</button><button
+                                class="project-deployed-link" onclick="wordWiseLive()">Website</button></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="github-cal-div ">
+                <h1>GitHub Calender</h1>
+                <div>
+                    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+
+                    <div class="react-activity-calendar calendar">
+                        <!-- Loading stuff -->
+                        Loading the data just for you.
+                    </div>
+
+                    <script>
+                        // or enable responsive functionality
+                        GitHubCalendar(".calendar", "amolkpatil22", {
+                            responsive: true,
+                            global_stats: true,
+                            tooltips: true,
+                        });
+                    </script>
+                    <div class="github-stats-info">
+                        <img id="github-stats-card"
+                            src="https://github-readme-stats.vercel.app/api?username=amolkpatil22&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=true">
+
+                        <img id="github-streak-stats"
+                            src="https://github-readme-streak-stats.herokuapp.com/?user=amolkpatil22&theme=highcontrast&hide_border=false">
+                    </div>
+                    <div>
+                        <img id="github-top-langs"
+                            src="https://github-readme-stats.vercel.app/api/top-langs/?username=amolkpatil22&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=true&layout=compact">
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>
+                Contact Me
+            </h1>
+            <p>Get in touch</p>
+            <div>
+                <div class="personal-info">
+                    <div>
+                        <div id="contact-email">
+                            <div class="info-head">
+                                <i class="fa-regular fa-envelope"></i>
+                                <p>Email</p>
+                            </div>
+                            <p>amolkpatil22@gmail.com</p>
+                        </div>
+                        <div>
+                            <div class="info-head">
+                                <i class="fa-solid fa-phone"></i>
+                                <p id="contact-phone">Phone Number</p>
+                            </div>
+                            <p>+91 7410102009</p>
+                        </div>
+                        <!-- <div>
+                            <div class="info-head">
+                                <i class="fa-brands fa-twitter"></i>
+                                <p>Twitter</p>
+                            </div>
+                            <p>@amolkpatil22</p>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="send-info">
+
+                    <!-- <div>
+                        <form action="" method="POST">
+                            <div class="input-box">
+                                <p>Name</p>
+                                <input type="text" name="name" required />
+                            </div>
+                            <div class="input-box">
+                                <p>Email</p>
+                                <input type="email" name="email" required />
+                            </div>
+                            <div class="input-box">
+                                <p>Projects</p>
+                                <input type="text" />
+                            </div>
+                            <div class="input-box">
+                                <p>Message</p>
+                                <textarea type="text" rows="5" name="message" required></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit" id="form-submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div> -->
+                </div>
+            </div>
+
+        </section>
+        <section id="footer">
+            <div>
+                <a href="#home" class="footer-nav">
+                    <p class=" nav-name">HOME </p>
+                </a>
+                <a href="#about" class="footer-nav">
+                    <p class=" nav-name">ABOUT</p>
+                </a>
+                <a href="#skills" class="footer-nav">
+                    <p class=" nav-name">SKILLS</p>
+                </a>
+                <a href="#projects" class="footer-nav">
+                    <p class=" nav-name">PROJECTS</p>
+                </a>
+                <a href="#contact" class="footer-nav">
+                    <p class=" nav-name">CONTACTS</p>
+                </a>
+                <a href="" class=""
+                    onclick="window.open(`https://drive.google.com/file/d/1oz6iAYLQFGl9ZkMi67-BbOBjtJouPi2s/view?usp=sharing`)"
+                    download href="Amol_Patil_Resume.pdf">
+                    <p class=" nav-name">RESUME</p>
+                </a>
+            </div>
+            <div class="icons-footer">
+                <i class="fa-brands fa-github" id="footer-github"></i>
+                <i class="fa-brands fa-linkedin" id="footer-linkedin"></i>
+            </div>
+            <div>
+                <p>© Design By Amol Patil</p>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
+<script src="index.js"></script>
