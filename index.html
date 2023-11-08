@@ -2,489 +2,597 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="github.css">
-    <title>Amol Patil's Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="Resources/Logo-removebg-preview.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins&display=swap');
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="./online-resume.png" type="image/x-icon" />
+
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Amol Patil</title>
 </head>
 
 <body>
-    <div class="container">
-        <section id="nav-menu">
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container" id="nav-menu">
+      <a href="#" class="nav__logo">Amol <span>Patil</span> </a>
+      <div class="nav__menu" id="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link nav-link home">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link nav-link about">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link nav-link skills">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link nav-link projects">projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link nav-link contact">Contact</a>
+          </li>
+          <li class="nav__item">
+            <a href="./assets/Amol_Patil_Resume.pdf" target="_blank" class="nav__link nav-link resume"
+              id="resume-button-1">Resume</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link" id="mode-toggle"><i class="ri-sun-line"></i></a>
+          </li>
+        </ul>
+        <!-- close button -->
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
 
-            <div id="nav-bar">
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </nav>
+  </header>
 
-                <a href="#home" class="nav-link home">
-                    <i class="fa-solid fa-house icon"></i>
-                    <p class=" nav-name">HOME </p>
-                </a>
-                <a href="#about" class="nav-link about">
-                    <i class="fa-solid fa-circle-info icon"></i>
-                    <p class=" nav-name">ABOUT</p>
-                </a>
-                <a href="#skills" class="nav-link skills">
-                    <i class="fa-solid fa-diagram-project icon"></i>
-                    <p class=" nav-name">SKILLS</p>
-                </a>
-                <a href="#projects" class="nav-link projects">
-                    <i class="fa-solid fa-file icon"></i>
-                    <p class=" nav-name">PROJECTS</p>
-                </a>
-                <a href="#contact" class="nav-link contact">
-                    <i class="fa-solid fa-phone icon"></i>
-                    <p class=" nav-name">CONTACTS</p>
-                </a>
-                <a id="resume-button-1" onclick="resumeDownload()" target="_blank" href="/Amol_Patil_Resume.pdf"
-                    class="nav-link resume" download>
-                    <i class="fa-solid fa-file-arrow-down icon"></i>
-                    <p id="resume-link-1" class="nav-name">RESUME</p>
-                </a>
-                <div id="side-window">
-                    <a class="closebtn"> &times;</a>
-                    <a href=" #home">HOME</a>
-                    <a href="#about">ABOUT</a>
-                    <a href="#skills">SKILLS</a>
-                    <a href="#projects">PROJECTS</a>
-                    <a href="#contact">CONTACTS</a>
-                    <a id="resume-link-1" onclick="resumeDownload()" target="_blank" href="/Amol_Patil_Resume.pdf"
-                        download="Amol_Patil_Resume.pdf">RESUME</a>
-                </div>
-                <button class="openbtn">&#9776; </button>
+  <!--==================== MAIN ====================-->
+  <!--==================== HOME ====================-->
+  <main class="main">
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <div class="home__data">
+            <h3 class="home__subtitle">
+              Hello<img id="Hii" src="./assets/img/hii.png" width="35px" alt="hii" />
+              <span> I'm</span>
+            </h3>
+            <h1 class="home__title" id="user-detail-name">Amol Patil</h1>
+
+            <h3 class="home__education">Full-Stack Web Developer</h3>
+            <p class="home__description">
+              Welcome to my portfolio!<br />
+              Let's connect and explore the world of coding together!"
+
+              <br />
+              <br />
+              <!-- My journey so far:
+    <br>            
+                💻 Over 1200 hours of coding experience
+                🗣 400+ hours dedicated to developing soft skills
+                🧩 Solved more than 400 Data Structures and Algorithms problems
+                ✅ Completed over 100 assignments
+                👥 Collaborated on 3+ exciting projects
+                🚀 Successfully delivered 4+ solo projects -->
+            </p>
+            <a href="#contact" class="button">Let`s Talk</a>
+            <div class="home__social">
+              <a href="https://github.com/amolkpatil22" target="_blank" class="home__social-link"
+                id="contact-github">
+                <i class="ri-github-fill"></i>
+              </a>
+              <a href="https://api.whatsapp.com/send/?phone=7410102009&text&type=phone_number&app_absent=0"
+                target="_blank" class="home__social-link">
+                <i class="ri-whatsapp-line"></i>
+              </a>
+              <a href="https://linkedin.com/in/amol-patil-73b82926a" target="_blank" class="home__social-link"
+                id="contact-linkedin">
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="home__image">
+          <svg class="home__blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+            <mask id="maskBlob" mask-type="alpha">
+              <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                   170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                   447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                   587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                   438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" />
+            </mask>
+            <g mask="url(#maskBlob)">
+              <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                   170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                   447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                   587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                   438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z" />
+
+              <rect x="37" width="476" height="630" fill="url(#pattern0)" />
+            </g>
+
+            <rect x="37" width="476" height="300" fill="url(#pattern1)" />
+
+            <defs>
+              <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)" />
+              </pattern>
+
+              <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
+              </pattern>
+
+              <!-- Insert your profile (recommended size: 640 x 940) -->
+              <image id="imageBlob" class="home-img" width="640" height="995" href="./assets/Amol(2).jpg" src="/" />
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <div class="about__data">
+          <h3 class="section__subtitle">My <span>Intro</span></h3>
+          <h2 class="section__title">About Me</h2>
+          <p class="about__descripton" id="user-detail-intro">
+            I'm a motivated and enthusiastic Full Stack Developer with a fresh
+            perspective on web development. I'm passionate about building
+            dynamic web applications and i am always excited to take on new
+            challenges.
+          </p>
+          <div class="about__buttons">
+            <a href="#contact" class="button">Contact Me</a>
+            <a href="./assets/Amol_Patil_Resume.pdf" target="_blank" class="button" id="resume-button-2">My Resume
+            </a>
+          </div>
+        </div>
+        <div class="about__image">
+          <svg class="about__blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="maskBorder" mask-type="alpha">
+              <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
+                     171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
+                     448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
+                     270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
+                     439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z" fill="black" />
+            </mask>
+            <g mask="url(#maskBorder)">
+              <rect x="37" width="476" height="630" fill="url(#pattern2)" />
+
+              <path d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
+                     192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
+                     580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
+                     40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
+                     175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z" stroke="black"
+                stroke-width="10" />
+            </g>
+
+            <rect x="37" width="476" height="300" fill="url(#pattern3)" />
+
+            <defs>
+              <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)" />
+              </pattern>
+
+              <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)" />
+              </pattern>
+
+              <!-- Insert your profile (recommended size: 640 x 940) -->
+              <image class="about__img" id="imageBorder" width="640" height="995" href="./assets/Amol(1).jpg" />
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+      <h2 class="section__title" style="text-align: center">Skills</h2>
+      <h3 class="section__subtitle" style="text-align: center">
+        My <span> Favourite Skills </span>
+      </h3>
+      <div class="skills__container container grid section__border">
+        <div class="skills__content">
+          <h3 class="skills__title">
+            <i class="ri-macbook-line"></i> Frontend
+          </h3>
+          <div class="skills__info">
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="./assets/img/html-1.svg" alt="skills image" />
+              </div>
+              <h3 class="skills__name">HTML 5</h3>
+              <span class="skills__subtitle"></span>
             </div>
 
-        </section>
-        <!-- =" Amol_Patil_Resume.pdf" -->
-        <section id="home">
-            <diV>
-                <div class="details-div">
-                    <div>
-                        <div>
-                            <h2>Hi, I'm</h3>
-                                <h1>Amol Patil</h1>
-                                <h3>FUll Stack Web Developer...</h3>
-                                <div target="_blank" class="btn-pack">
-                                    <a
-                                    className="nav-link resume"
-                                    href="https://drive.google.com/uc?export=download&id=1UBgt4cfEWrtO6DkeT8boJlXNJqLDL3kG"
-                                  >
-                                    <button
-                                      id="resume-button-2"
-                                      
-                                      onclick="resumedown2()"
-                                    >
-                                      Resume
-                                    </button>
-                                </a>
-
-
-
-                                    <!-- <a id="resume-link-2" href="/Amol_Patil_Resume.pdf"   target="_blank"
-                                        download="Amol_Patil_Resume" >
-                                        <button id="resume-button-2" onclick="resumeDownload()">Resume</button>
-                                    </a> -->
-
-
-                                    <div>
-                                        <i id="contact-github" class="fa-brands fa-github"></i>
-                                        <i id="contact-linkedin" class="fa-brands fa-linkedin"></i>
-                                    </div>
-                                </div>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="image-icon">
-                    <div>
-
-                        <div class="background"></div>
-                        <!-- <img src="Resources/laptop-boy.png" /> -->
-
-                    </div>
-
-                </div>
-
-            </diV>
-        </section>
-
-        <section id="about" class="about section">
-            <img src="Resources/wave6.png" />
-            <div class="main-about">
-                <div class="my-details">
-                    <div>
-                        <div> <img src="Resources/profile-photo.jpg" class="home-img" /></div>
-
-                    </div>
-                    <div>
-                        <h1 id="user-detail-name">About Me</h1>
-                        <!-- <hr style="width:200px; margin-bottom:10px"> -->
-
-                        <p id="user-detail-intro">
-                            I'm a passionate Full-stack Web Developer with a robust skill set in HTML, CSS, JavaScript,
-                            REST API, Node.js, React, MongoDB, Express.js, and GitHub. My expertise lies in seamlessly
-                            blending functionality and aesthetics to deliver visually appealing and flawless web
-                            applications.
-                            Dedicated to perpetual learning and staying updated with emerging technologies, I'm
-                            committed to making a lasting impact in the world of full-stack web development. Let's
-                            connect and explore opportunities to create innovative web solutions together!
-                        </p>
-                        <!-- <div class="past-info">
-                        <div>
-                            <div>
-                                <p> 1200+ </p>
-                            </div>
-                            <hr>
-                            <div>Coding Experience</div>
-                        </div>
-                        <div>
-                            <div>
-                                <p> 1200+ </p>
-                            </div>
-                            <hr>
-                            <div>Coding Experience</div>
-                        </div>
-                        <div>
-                            <div>
-                                <p> 1200+ </p>
-                            </div>
-                            <hr>
-                            <div>Coding Experience</div>
-                        </div>
-                    </div> -->
-                        <button id="contact-btn">Contact Me</button>
-                    </div>
-
-
-                </div>
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="./assets/img/css-3.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">CSS</h3>
+              <span class="skills__subtitle"></span>
             </div>
 
-            <img src="Resources/wave8.png" />
-        </section>
-
-        <section id="skills">
-            <h1>SKILLS</h1>
-            <!-- <hr style="width:200px; margin:0px auto 10px"> -->
-            <div class="skills-main">
-                <div>
-                    <div class="main-tech-stack skills-card">
-                        <h1>TECH STACKS</h1>
-                        <div>
-                            <div>
-                                <div>
-                                    <img class="skills-card-img" src="Resources/html_logo.png" />
-                                    <p class="skills-card-name">HTML</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img class="skills-card-img" src="Resources/css.png" />
-                                    <p class="skills-card-name">CSS</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img class="skills-card-img" src="Resources/javascript.png" />
-                                    <p class="skills-card-name">JavaScript</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img class="skills-card-img" src="Resources/react.png" />
-                                    <p class="skills-card-name">React</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img class="skills-card-img" src="Resources/redux.svg" />
-                                    <p class="skills-card-name">Redux</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img class="skills-card-img" src="Resources/chakra-ui.png" />
-                                    <p class="skills-card-name">Chakra UI</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img class="skills-card-img" src="Resources/typescript.png" />
-                                    <p class="skills-card-name">TypeScript</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img class="skills-card-img" src="Resources/node.png" />
-                                    <p class="skills-card-name">Node.js</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img class="skills-card-img" src="Resources/express.png" />
-                                    <p class="skills-card-name">Express.js</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img class="skills-card-img" src="Resources/mongodb.svg" />
-                                    <p class="skills-card-name">MongoDB</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img class="skills-card-img" src="Resources/Mongoose.png" />
-                                    <p class="skills-card-name">Mongoose</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img class="skills-card-img" src="Resources/github.svg" />
-                                    <p class="skills-card-name">Github</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img class="skills-card-img" src="Resources/Netlify.png" />
-                                    <p class="skills-card-name">Netlify</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="./assets/img/javascript.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">JavaScript</h3>
+              <span class="skills__subtitle"></span>
             </div>
-        </section>
-        <!-- <hr style="margin:60px"> -->
-        <section id="projects">
-            <p>My Recent Work</p>
-            <h1>PROJECTS</h1>
-            <div class="all-projects">
-                <div>
-                    <div class="single-project project-card">
-                        <h1 class="project-title">Shopcart</h1>
-                        <div class="project-img "><img src="/Resources/Shopcart.png" />
-                        </div>
-                        <p class="project-description">The ShopCart E-Commerce Store project is dedicated to providing a
-                            dynamic and streamlined
-                            online shopping experience in the realm of fashion and other households retail.</p>
-                        <!-- <ul style="list-style-type:disc">Features:
-                    <li>Valid Sign-up and Login</li>
-                    <li>Users can book a Trip</li>
-                    <li>Responsive</li>
-                </ul> -->
-                        <h5 class="project-tech-stack"><span style="color:#f0422f;">Tech Stack :</span> React
-                            | Redux | Chakra UI | HTML |
-                            CSS | JavaScript</h5>
-                        <p>A Collaborative project built by a team of 5 members
-                            in 4 Days.</p>
-                        <div>
-                            <button class="project-github-link" onclick="shopCartGithub()">GitHub</button>
-                            <button class="project-deployed-link" onclick="shopCartVideo()">Website</button>
-                        </div>
-                    </div>
 
-
-                    <div class="single-project project-card">
-                        <h1 class="project-title">Intelligent Care Access Center</h1>
-                        <div class="project-img"><img src="/Resources/ICAC.png" />
-                        </div>
-                        <p class="project-description">A user-focused Orthopedic Clinic website, skillfully crafted with
-                            React and Chakra UI, bridging the gap between patients and quality healthcare while
-                            showcasing the developer's expertise.</p>
-                        <!-- <ul style="list-style-type:disc">
-                    <li>Features:</li>
-                    <li>Valid Sign-up and Login</li>
-                    <li>Users can book a Trip</li>
-                    <li>Responsive</li>
-                </ul> -->
-
-                        <h5 class="project-tech-stack"><span style="color:#f0422f;">Tech Stack :</span> JavaScript
-                            | React | Chakra UI | HTML | CSS</h5>
-                        <p>Individual Project built in 4 Days.</p>
-                        <div><button class="project-github-link" onclick="icacGithub()">GitHub</button><button
-                                class="project-deployed-link" onclick="icacVideo()">Website</button></div>
-                    </div>
-                </div>
-                <div>
-                    <div class="single-project project-card">
-                        <h1 class="project-title">Edukin</h1>
-                        <div class="project-img "><img src="/Resources/Edukin.png" />
-                        </div>
-                        <p class="project-description">Edukin Language Learning Project is an ambitious and innovative
-                            endeavor aimed at revolutionizing the way children learn new languages.</p>
-                        <!-- <ul style="list-style-type:disc">
-                    <li>Features:</li>
-                    <li>Valid Sign-up and Login</li>
-                    <li>Users can book a Trip</li>
-                    <li>Responsive</li>
-                </ul> -->
-
-                        <h5 class="project-tech-stack"><span style="color:#f0422f;">Tech Stack :</span> HTML
-                            | CSS | JavaScript</h5>
-                        <p>Collaborative project built by a team of 4 members in 4 Days.</p>
-                        <div><button class="project-github-link" onclick="edukinGithub()">GitHub</button><button
-                                class="project-deployed-link" onclick="edukinLive()">Website</button>
-                        </div>
-                    </div>
-                    <div class="single-project project-card">
-                        <h1 class="project-title">WordWise</h1>
-                        <div class="project-img "><img src="Resources/wordwise.png" /></div>
-                        <p class="project-description">Wordwise is inclusive language learning platform, catering
-                            to both children and adults. </p>
-                        <!-- <ul style="list-style-type:disc">
-                    <li>Features:</li>
-                    <li>Valid Sign-up and Login</li>
-                    <li>Users can book a Trip</li>
-                    <li>Responsive</li>
-                </ul> -->
-
-                        <h5 class="project-tech-stack"><span style="color:#f0422f;">Tech Stack :</span> HTML
-                            | CSS | JavaScript</h5>
-                        <p>Individual Project built in 4 Days.</p>
-                        <div><button class="project-github-link" onclick="wordWiseGithub()">GitHub</button><button
-                                class="project-deployed-link" onclick="wordWiseLive()">Website</button></div>
-                    </div>
-
-                </div>
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="./assets/img/react.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">React</h3>
+              <span class="skills__subtitle"></span>
             </div>
-            <div class="github-cal-div ">
-                <h1>GitHub Calender</h1>
-                <div>
-                    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-
-
-                    <div class="react-activity-calendar calendar">
-                        <!-- Loading stuff -->
-                        Loading the data just for you.
-                    </div>
-
-                    <script>
-                        // or enable responsive functionality
-                        GitHubCalendar(".calendar", "amolkpatil22", {
-                            responsive: true,
-                            global_stats: true,
-                            tooltips: true,
-                        });
-                    </script>
-                    <div class="github-stats-info">
-                        <img id="github-stats-card"
-                            src="https://github-readme-stats.vercel.app/api?username=amolkpatil22&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=true">
-
-                        <img id="github-streak-stats"
-                            src="https://github-readme-streak-stats.herokuapp.com/?user=amolkpatil22&theme=highcontrast&hide_border=false">
-                    </div>
-                    <div>
-                        <img id="github-top-langs"
-                            src="https://github-readme-stats.vercel.app/api/top-langs/?username=amolkpatil22&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=true&layout=compact">
-                    </div>
-
-
-
-                </div>
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="./assets/img/redux.svg" alt="skills image" />
+              </div>
+              <h3 class="skills__name">Redux</h3>
+              <span class="skills__subtitle"></span>
             </div>
-        </section>
-        <section id="contact">
-            <h1>
-                Contact Me
-            </h1>
-            <p>Get in touch</p>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="./assets/img/chakra-ui.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">Chakra UI</h3>
+              <span class="skills__subtitle"></span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="./assets/img/typescript.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">TypeScript</h3>
+              <span class="skills__subtitle"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__content">
+          <h3 class="skills__title">
+            <i class="ri-server-line"></i> Backend
+          </h3>
+          <div class="skills__info">
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="./assets/img/node.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">Node.js</h3>
+              <span class="skills__subtitle"></span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="./assets/img/express.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">Express.js</h3>
+              <span class="skills__subtitle"></span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="./assets/img/mongodb.svg" alt="skills image" />
+              </div>
+              <h3 class="skills__name">MongoDB</h3>
+              <span class="skills__subtitle"></span>
+            </div>
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="./assets/img/Mongoose.png" alt="skills image" />
+              </div>
+              <h3 class="skills__name">Mongoose</h3>
+              <span class="skills__subtitle"></span>
+            </div>
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="./assets/img/github.svg" alt="skills image" />
+              </div>
+              <h3 class="skills__name">Github</h3>
+              <span class="skills__subtitle"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== SERVICES ====================-->
+    <!-- <section class="services section" id="services"></section> -->
+
+    <!--==================== projects ====================-->
+    <section class="projects section" id="projects">
+      <h3 class="section__subtitle" style="text-align: center">
+        My <span>Works</span>
+      </h3>
+      <h2 class="section__title" style="text-align: center">
+        Recent projects
+      </h2>
+
+      <div class="container projects">
+        <div class="projects_content grid project-card">
+          <div class="project_img">
+            <img src="./assets/img/Shopcart.png" alt="projects image" class="projects__img" />
+          </div>
+
+          <div class="project_info" style="padding: 2rem">
+            <h2 class="project-title">Shopcart</h2>
+            <p class="project-description">
+              The ShopCart E-Commerce Store project is dedicated to providing a
+              dynamic and streamlined
+              online shopping experience in the realm of fashion and other households retail.
+            </p>
             <div>
-                <div class="personal-info">
-                    <div>
-                        <div id="contact-email">
-                            <div class="info-head">
-                                <i class="fa-regular fa-envelope"></i>
-                                <p>Email</p>
-                            </div>
-                            <p>amolkpatil22@gmail.com</p>
-                        </div>
-                        <div>
-                            <div class="info-head">
-                                <i class="fa-solid fa-phone"></i>
-                                <p id="contact-phone">Phone Number</p>
-                            </div>
-                            <p>+91 7410102009</p>
-                        </div>
-                        <!-- <div>
-                            <div class="info-head">
-                                <i class="fa-brands fa-twitter"></i>
-                                <p>Twitter</p>
-                            </div>
-                            <p>@amolkpatil22</p>
-                        </div> -->
-                    </div>
-                </div>
-                <!-- <div class="send-info">
-
-                    <div>
-                        <form action="" method="POST">
-                            <div class="input-box">
-                                <p>Name</p>
-                                <input type="text" name="name" required />
-                            </div>
-                            <div class="input-box">
-                                <p>Email</p>
-                                <input type="email" name="email" required />
-                            </div>
-                            <div class="input-box">
-                                <p>Projects</p>
-                                <input type="text" />
-                            </div>
-                            <div class="input-box">
-                                <p>Message</p>
-                                <textarea type="text" rows="5" name="message" required></textarea>
-                            </div>
-                            <div class="submit-btn">
-                                <button type="submit" id="form-submit">Send Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div> -->
+              <h4>Tech Stacks</h4>
+              <div class="project__icon project-tech-stack">
+                <img
+                  src="https://camo.githubusercontent.com/149662647584146f2b62ec0f656c023455f1edfcff7094e185e9474858e88b23/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d2532334533344632362e7376673f7374796c653d666c61742d737175617265266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465"
+                  alt="" />
+                <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white"
+                  alt="" />
+                <img
+                  src="https://camo.githubusercontent.com/06b0ed212bf5bae6c044ba0b4a708f97ca82a23e38b089dfc4f97ba239a35cc8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145"
+                  alt="" />
+              </div>
+              <div>
+                <a href="https://shopcartrct211.netlify.app/" target="_blank"
+                  class="button project-deployed-link">view<i class="ri-external-link-line"></i></a>
+                <a href="https://github.com/amolkpatil22/stoic-sack-3017" target="_blank"
+                  class="button project-github-link">code<i class="ri-external-link-line"></i></a>
+              </div>
             </div>
+          </div>
+        </div>
 
-        </section>
-        <section id="footer">
+        <div class="projects_content grid project-card">
+          <div class="project_img">
+            <img src="./assets/img/ICAC.png" alt="projects image" class="projects__img" />
+          </div>
+          <div class="project_info" style="padding: 2rem">
+            <h2 class="project-title">Intelligent Care Access Center</h2>
+            <p class="project-description">
+              A user-focused Orthopedic Clinic website, skillfully crafted with
+              React and Chakra UI, bridging the gap between patients and quality healthcare while
+              showcasing the developer's expertise.
+            </p>
             <div>
-                <a href="#home" class="footer-nav">
-                    <p class=" nav-name">HOME </p>
-                </a>
-                <a href="#about" class="footer-nav">
-                    <p class=" nav-name">ABOUT</p>
-                </a>
-                <a href="#skills" class="footer-nav">
-                    <p class=" nav-name">SKILLS</p>
-                </a>
-                <a href="#projects" class="footer-nav">
-                    <p class=" nav-name">PROJECTS</p>
-                </a>
-                <a href="#contact" class="footer-nav">
-                    <p class=" nav-name">CONTACTS</p>
-                </a>
-                <a href="" class=""
-                    onclick="window.open(`https://drive.google.com/file/d/1oz6iAYLQFGl9ZkMi67-BbOBjtJouPi2s/view?usp=sharing`)"
-                    download href="/Amol_Patil_Resume.pdf">
-                    <p class=" nav-name">RESUME</p>
-                </a>
+              <h4>Tech Stacks</h4>
+              <div class="project__icon project-tech-stack">
+                <img
+                  src="https://camo.githubusercontent.com/149662647584146f2b62ec0f656c023455f1edfcff7094e185e9474858e88b23/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d2532334533344632362e7376673f7374796c653d666c61742d737175617265266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465"
+                  alt="" />
+                <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white"
+                  alt="" />
+                <img
+                  src="https://camo.githubusercontent.com/06b0ed212bf5bae6c044ba0b4a708f97ca82a23e38b089dfc4f97ba239a35cc8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145"
+                  alt="" />
+              </div>
+              <div>
+                <a href="https://icachealthcare.netlify.app/" target="_blank"
+                  class="button project-deployed-link">view<i class="ri-external-link-line"></i></a>
+                <a href="https://github.com/amolkpatil22/gutsy-sheet-7629" target="_blank"
+                  class="button project-github-link">code<i class="ri-external-link-line"></i></a>
+              </div>
             </div>
-            <div class="icons-footer">
-                <i class="fa-brands fa-github" id="footer-github"></i>
-                <i class="fa-brands fa-linkedin" id="footer-linkedin"></i>
-            </div>
-            <div>
-                <p>© Design By Amol Patil</p>
-            </div>
-        </section>
+          </div>
+        </div>
 
+        <div class="projects_content grid project-card">
+          <div class="project_img">
+            <img src="./assets/img/Edukin.png" alt="projects image" class="projects__img" />
+          </div>
+          <div class="project_info" style="padding: 2rem">
+            <h2 class="project-title">Edukin</h2>
+            <p class="project-description">
+              Edukin Language Learning Project is an ambitious and innovative
+              endeavor aimed at revolutionizing the way children learn new languages.
+            </p>
+            <div>
+              <h4>Tech Stacks</h4>
+              <div class="project__icon project-tech-stack">
+                <img
+                  src="https://camo.githubusercontent.com/149662647584146f2b62ec0f656c023455f1edfcff7094e185e9474858e88b23/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d2532334533344632362e7376673f7374796c653d666c61742d737175617265266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465"
+                  alt="" />
+                <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white"
+                  alt="" />
+                <img
+                  src="https://camo.githubusercontent.com/06b0ed212bf5bae6c044ba0b4a708f97ca82a23e38b089dfc4f97ba239a35cc8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145"
+                  alt="" />
+              </div>
+              <div>
+                <a href="https://zingy-heliotrope-1fffbb.netlify.app/" target="_blank"
+                  class="button project-deployed-link">view<i class="ri-external-link-line"></i></a>
+                <a href="https://github.com/ashishsen003/remarkable-ice-6564" target="_blank"
+                  class="button project-github-link">code<i class="ri-external-link-line"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects_content grid project-card">
+          <div class="project_img">
+            <img src="./assets/img/wordwise.png" alt="projects image" class="projects__img" />
+          </div>
+
+          <div class="project_info" style="padding: 2rem">
+            <h2 class="project-title">WordWise</h2>
+            <p class="project-description">
+              Wordwise is inclusive language learning platform, catering
+              to both children and adults.
+            </p>
+            <div>
+              <h4>Tech Stacks</h4>
+              <div class="project__icon project-tech-stack">
+                <img
+                  src="https://camo.githubusercontent.com/149662647584146f2b62ec0f656c023455f1edfcff7094e185e9474858e88b23/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f68746d6c352d2532334533344632362e7376673f7374796c653d666c61742d737175617265266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465"
+                  alt="" />
+                <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white"
+                  alt="" />
+                <img
+                  src="https://camo.githubusercontent.com/06b0ed212bf5bae6c044ba0b4a708f97ca82a23e38b089dfc4f97ba239a35cc8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d2532333332333333302e7376673f7374796c653d666c61742d737175617265266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d253233463744463145"
+                  alt="" />
+              </div>
+              <div>
+                <a href="https://venerable-dodol-cb93c5.netlify.app/" target="_blank"
+                  class="button project-deployed-link">view<i class="ri-external-link-line"></i></a>
+                <a href="https://github.com/amolkpatil22/high-fruit-9045" target="_blank"
+                  class="button project-github-link">code<i class="ri-external-link-line"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stats" class="section">
+      <div class="container grid">
+        <h3 class="section__title" style="text-align: center">
+          GitHub Stats
+        </h3>
+      </div>
+      <div class="allGit react-activity-calendar">
+        <!-- id="statsimg" -->
+
+        <img id="github-stats-card"
+          src="https://github-readme-stats.vercel.app/api?username=amolkpatil22&show_icons=true&theme=dark&include_all_commits=true&count_private=true"
+          alt="githubstats" id="github-stats-card" />
+
+        <img id="github-top-langs"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=amolkpatil22&layout=donut&theme=dark&include_all_commits=true&count_private=true"
+          alt="lang" id="github-top-langs" />
+
+        <img id="github-streak-stats"
+          src="https://github-readme-streak-stats.herokuapp.com?user=amolkpatil22&theme=whatsapp-dark&border_radius=5.5&include_all_commits=true&count_private=true"
+          alt="streak" id="github-streak-stats" />
+      </div>
+    </section>
+
+    <section id="calendar">
+      <h2 class="mid">Github Calendar</h2>
+      <hr style="margin-bottom: 30px" />
+      <!-- <div class="react-activity-calendar calendar">
+           Loading stuff 
+          Loading the data just for you.
+        </div> -->
+      <div>
+        <!-- Loading stuff -->
+        Loading the data just for you.
+      </div>
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <!-- <section class="contact section" id="contact"></section> -->
+    <section class="contact section" id="contact">
+      <div class="about__container container grid">
+        <div class="contact-info">
+          <h3 class="section__title">Let's get in touch</h3>
+          <p class="info__text">
+            Feel free to contact me to know more about me. You can call me or
+            send a mail to me. I will surely reach out to you in nearest time.
+          </p>
+
+          <div class="info">
+            <!-- <div class="information">
+              <img src="./assets/img/map-pin-fill.svg" width="52px" />
+              <p>
+                Pithmapur sec-3, Indore, MP (India) <br />
+                Pincode: 454774
+              </p>
+            </div> -->
+            <div class="information">
+              <img src="assets/img/email-icon-119.png" width="50px" class="icon" alt="" />
+              <p id="contact-email">amolkpatil22@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="assets/img/phone-fill.svg" width="50px" class="icon" alt="" />
+              <p id="contact-phone">+91 7410102009</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h2 class="section__title">Send Message</h2>
+          <div class="contact__container container grid">
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <input type="text" name="user_name" class="contact__input" required placeholder="Enter Your Name" />
+                <input type="email" name="user_email" class="contact__input" required placeholder="Enter Your Email" />
+
+                <textarea name="user_message" required placeholder="Enter Your Message"
+                  class="contact__input"></textarea>
+                <p class="contact__message" id="contact-message"></p>
+
+                <button type="submit" class="button contact__button">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__conatiner conatiner grid">
+      <div>
+        <h1 class="footer__title">Amol <span>Patil</span></h1>
+        <h2 class="footer__education">Full-Stack Web Developer</h2>
+      </div>
+      <div class="social-media">
+        <div class="home__social footer__social">
+          <a href="https://github.com/amolkpatil22" target="_blank" class="home__social-link">
+            <i class="ri-github-fill"></i>
+          </a>
+          <a href="https://api.whatsapp.com/send/?phone=7410102009&text&type=phone_number&app_absent=0" target="_blank"
+            class="home__social-link">
+            <i class="ri-whatsapp-line"></i>
+          </a>
+          <a href="https://linkedin.com/in/amol-patil-73b82926a" target="_blank" class="home__social-link">
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+
+         
+          
+        </div>
+      </div>
+      <div>
+        <span class="footer__copy">Copyright © 2023, Amol Patil, All rights reserved</span>
+      </div>
     </div>
+  </footer>
+
+  <!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+  <!--=============== SCROLLREVEAL ===============-->
+  <!--=============== EMAIL JS ===============-->
+
+  <!--=============== MAIN JS ===============-->
 </body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script src="./assets/js/scrollReveal.min.js"></script>
+<script src="./assets/js/main.js"></script>
 
 </html>
-<script src="index.js"></script>
