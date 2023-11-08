@@ -6,7 +6,7 @@ function GitHubContributions() {
   return (
     <div>
       <h2>GitHub Contributions</h2>
-      <GitHubCalendar username="your-username" />
+      <GitHubCalendar username="amolkpatil22" />
     </div>
   );
 }
