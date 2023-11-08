@@ -31,6 +31,15 @@
 //     );
 // })
 
+ const resumedown2 = () => {
+    window.open(
+      "https://drive.google.com/file/d/1UBgt4cfEWrtO6DkeT8boJlXNJqLDL3kG/view?usp=sharing",
+      "_blank"
+      
+    );
+  };
+
+
 function resumeDownload() {
 
     window.open(
