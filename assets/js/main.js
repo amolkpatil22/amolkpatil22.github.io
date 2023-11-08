@@ -123,3 +123,55 @@ sr.reveal(`.about__image,.skills__content:nth-child(2)`, { origin: 'right' });
 sr.reveal(`.about__data,.skills__content:nth-child(1)`, { origin: 'left' });
 
 sr.reveal(`.about__data`, { origin: 'left' });
+
+
+/*=============== Project ===============*/
+
+function shopCartGithub() {
+
+  window.location.href = "https://github.com/amolkpatil22/stoic-sack-3017";
+
+}
+
+function shopCartVideo() {
+
+  window.location.href = "https://shopcartrct211.netlify.app/";
+
+}
+
+function icacGithub() {
+
+  window.location.href = "https://github.com/amolkpatil22/gutsy-sheet-7629";
+
+}
+
+function icacVideo() {
+
+  window.location.href = "https://icachealthcare.netlify.app/";
+
+}
+
+
+function edukinGithub() {
+
+  window.location.href = "https://github.com/ashishsen003/remarkable-ice-6564";
+
+}
+
+function edukinLive() {
+
+  window.location.href = "https://zingy-heliotrope-1fffbb.netlify.app/";
+
+}
+
+function wordWiseGithub() {
+
+  window.location.href = "https://github.com/amolkpatil22/high-fruit-9045";
+
+}
+
+function wordWiseLive() {
+
+  window.location.href = "https://venerable-dodol-cb93c5.netlify.app/";
+
+}
