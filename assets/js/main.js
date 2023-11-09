@@ -88,8 +88,8 @@ const scrollActive = () => {
 // Resume Downloader
 const Download = () => {
   var link = document.createElement("a");
-  link.href = "./assets/Amol_Patil_Resume.pdf";
-  link.download = "Amol_Patil_Resume.pdf";
+  link.href = "./assets/Amol-Patil-Resume.pdf";
+  link.download = "Amol-Patil-Resume.pdf";
   link.click();
 }
 
