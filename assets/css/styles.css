@@ -5,21 +5,7 @@
   --header-height: 3.5rem;
   margin: 0;
   padding: 0;
-  display: block;
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  /* 
-      Change favorite color
-      Default: hsl(162, 100%, 40%)
-      Orange: hsl(14, 100%, 65%) - Blue: hsl(210, 100%, 70%)
-      Pink: hsl(356, 100%, 75%) - Purple: hsl(250, 100%, 75%)
-
-      For more colors visit: https://colors.dopely.top/color-pedia
-      -> Choose any color 
-      -> click on tab (Color Conversion)
-      -> Copy the color mode (HSL)
-  */
-  /* 162  40%*/
+  display: block;  
   --hue: 162;
   --first-color: hsl(var(--hue), 100%, 40%);
   --first-color-alt: hsl(var(--hue), 56%, 35%);
@@ -27,12 +13,7 @@
   --text-color: hsl(228, 8%, 65%);
   --body-color: hsl(228, 15%, 20%);
   --container-color: hsl(228, 15%, 15%);
-  --text-color-light:hsl(207,4%,56%)
-  /* light mode */
-  /*  */
-
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
+  --text-color-light:hsl(207,4%,56%);
   --body-font: "Poppins", sans-serif;
   --biggest-font-size: 2rem;
   --bigger-font-size: 1.25rem;
@@ -58,12 +39,10 @@
   --first-color-alt: #002d62;
   --title-color: #101010;
   --text-color: #000065;
-  --text-color-light:hsl(207,4%,56%);
-  
-  /* --body-color:white; */
+  --text-color-light:hsl(207,4%,56%); 
   --container-color: #faf7fb; 
   --body-color:hsl(207,4%,99%);
-  /* --container-color: hsl(207,4%,99%); */
+
 }
 /*========== Responsive typography ==========*/
 @media screen and (min-width: 1152px) {
@@ -331,11 +310,7 @@ svg {
   justify-content: center;
   align-items: center;
 }
-/* .project__icon img{
-  width: 40px;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  object-fit: cover;
-} */
+
 .project__icon span {
   position: absolute;
 
@@ -529,23 +504,7 @@ svg {
   row-gap: 3rem;
 }
 
-/* .projects__title {
-  font-size: var(--h2-font-size);
 
-  margin-bottom: 0.75rem;
-}
-.projects__button {
-  display: flex;
-  align-items: center;
-  column-gap: 0.5rem;
-  font-weight: var(--font-medium);
-}
-.projects__button i {
-  font-size: 1.25rem;
-}
-.projects__card:hover .projects__modal {
-  bottom: 0;
-} */
 
 /*=============== CONTACT ===============*/
 .contact__container {
