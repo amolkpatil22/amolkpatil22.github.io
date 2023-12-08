@@ -127,6 +127,18 @@ sr.reveal(`.about__data`, { origin: 'left' });
 
 /*=============== Project ===============*/
 
+function houseHunterGithub() {
+
+  window.location.href = "https://github.com/amolkpatil22/HouseHunter.git";
+
+}
+
+function houseHunterVideo() {
+
+  window.location.href = "https://househunter-cw.vercel.app/";
+
+}
+
 function shopCartGithub() {
 
   window.location.href = "https://github.com/amolkpatil22/Shopkart.git";
