@@ -129,7 +129,7 @@ sr.reveal(`.about__data`, { origin: 'left' });
 
 function shopCartGithub() {
 
-  window.location.href = "https://github.com/amolkpatil22/stoic-sack-3017";
+  window.location.href = "https://github.com/amolkpatil22/Shopkart.git";
 
 }
 
@@ -141,7 +141,7 @@ function shopCartVideo() {
 
 function icacGithub() {
 
-  window.location.href = "https://github.com/amolkpatil22/gutsy-sheet-7629";
+  window.location.href = "https://github.com/amolkpatil22/ICAC.git";
 
 }
 
@@ -154,24 +154,24 @@ function icacVideo() {
 
 function edukinGithub() {
 
-  window.location.href = "https://github.com/ashishsen003/remarkable-ice-6564";
+  window.location.href = "https://github.com/ashishsen003/edukin-courses.git";
 
 }
 
 function edukinLive() {
 
-  window.location.href = "https://zingy-heliotrope-1fffbb.netlify.app/";
+  window.location.href = "https://edukin-language-learning.netlify.app/";
 
 }
 
 function wordWiseGithub() {
 
-  window.location.href = "https://github.com/amolkpatil22/high-fruit-9045";
+  window.location.href = "https://github.com/amolkpatil22/WordWise.git";
 
 }
 
 function wordWiseLive() {
 
-  window.location.href = "https://venerable-dodol-cb93c5.netlify.app/";
+  window.location.href = "https://wordwise-language-learning.netlify.app/";
 
 }
