@@ -129,61 +129,61 @@ sr.reveal(`.about__data`, { origin: 'left' });
 
 function houseHunterGithub() {
 
-  window.location.href = "https://github.com/amolkpatil22/HouseHunter.git";
+  window.open("https://github.com/amolkpatil22/HouseHunter.git", "_blank")
 
 }
 
 function houseHunterVideo() {
 
-  window.location.href = "https://househunter-cw.vercel.app/";
+  window.open("https://househunter-cw.vercel.app/", "_blank")
 
 }
 
 function shopCartGithub() {
 
-  window.location.href = "https://github.com/amolkpatil22/Shopkart.git";
+  window.open("https://github.com/amolkpatil22/Shopkart.git", "_blank")
 
 }
 
 function shopCartVideo() {
 
-  window.location.href = "https://shopcartrct211.netlify.app/";
+  window.open("https://shopcartrct211.netlify.app/", "_blank")
 
 }
 
 function icacGithub() {
 
-  window.location.href = "https://github.com/amolkpatil22/ICAC.git";
+  window.open("https://github.com/amolkpatil22/ICAC.git", "_blank")
 
 }
 
 function icacVideo() {
 
-  window.location.href = "https://icachealthcare.netlify.app/";
+  window.open("https://icachealthcare.netlify.app/", "_blank")
 
 }
 
 
 function edukinGithub() {
 
-  window.location.href = "https://github.com/ashishsen003/edukin-courses.git";
+  window.open("https://github.com/ashishsen003/edukin-courses.git", "_blank")
 
 }
 
 function edukinLive() {
 
-  window.location.href = "https://edukin-language-learning.netlify.app/";
+  window.open("https://edukin-language-learning.netlify.app/", "_blank")
 
 }
 
 function wordWiseGithub() {
 
-  window.location.href = "https://github.com/amolkpatil22/WordWise.git";
+  window.open("https://github.com/amolkpatil22/WordWise.git", "_blank")
 
 }
 
 function wordWiseLive() {
 
-  window.location.href = "https://wordwise-language-learning.netlify.app/";
+  window.open("https://wordwise-language-learning.netlify.app/", "_blank")
 
 }
