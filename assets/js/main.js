@@ -86,16 +86,16 @@ const scrollActive = () => {
 };
 
 // Resume Downloader
-const Download = () => {
-  var link = document.createElement("a");
-  link.href = "./assets/Amol-Patil-Resume.pdf";
-  link.download = "Amol-Patil-Resume.pdf";
-  link.click();
-}
+// const Download = () => {
+//   var link = document.createElement("a");
+//   link.href = "./assets/Amol-Patil-Resume.pdf";
+//   link.download = "Amol-Patil-Resume.pdf";
+//   link.click();
+// }
 
 
-const Resume = document.getElementById("resume-button-1").addEventListener("click", Download)
-const Resume2 = document.getElementById("resume-button-2").addEventListener("click", Download)
+// const Resume = document.getElementById("resume-button-1").addEventListener("click", Download)
+// const Resume2 = document.getElementById("resume-button-2").addEventListener("click", Download)
 
 
 
