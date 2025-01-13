@@ -139,6 +139,18 @@ function houseHunterVideo() {
 
 }
 
+function smartHireVideo() {
+
+  window.open("https://smarthire-ai-interviewer.vercel.app/", "_blank")
+
+}
+
+function smartHireGitHub() {
+
+  window.open("https://github.com/amolkpatil22/ai_interviewer_frontend.git", "_blank")
+
+}
+
 function shopCartGithub() {
 
   window.open("https://github.com/amolkpatil22/Shopkart.git", "_blank")
